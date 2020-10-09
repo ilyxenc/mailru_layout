@@ -1,0 +1,29 @@
+.kvizIllustration {
+  width: 93px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: -219px;
+  transform: rotateY(180deg);
+}
+
+.kvizIllustrationMobile {
+  position: relative;
+  z-index: -1;
+
+  display: none;
+}
+
+.kvizIllustrationMobileImg {
+  width: 142px;
+  height: auto;
+  position: absolute;
+  left: 43px;
+  top: -112px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .kvizIllustrationMobile {
+    display: block;
+  }
+}
