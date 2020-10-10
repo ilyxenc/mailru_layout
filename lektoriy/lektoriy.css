@@ -1,0 +1,53 @@
+.lektoriyCaption {
+  width: 266px;
+  height: auto;
+}
+
+.lektoriyBlockBottom {
+  position: relative;
+  margin-top: 205px;
+}
+
+.lektoriyBlockBottomImg {
+  width: auto;
+  height: 133px;
+  position: absolute;
+  left: 581px;
+  top: -140px;
+}
+
+.lektoriyModeratorImg {
+  display: none;
+}
+
+@media only screen and (max-device-width: 1290px) {
+  .lektoriyAction {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .lektoriyCaption {
+    width: 164px;
+  }
+
+  .lektoriyModeratorImg {
+    display: block;
+    width: 62px;
+    height: auto;
+    position: absolute;
+    right: 26px;
+    top: 23px;
+    margin: 0;
+  }
+
+  .lektoriyBlockBottom {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 360px) {
+  .lektoriyModeratorImg {
+    width: 40px;
+  }
+}

@@ -1,0 +1,131 @@
+.tourBlockMain {
+  position: relative;
+}
+
+.tourBlockImg {
+  width: 128px;
+  height: auto;
+  position: absolute;
+  right: 200px;
+  top: 36px;
+}
+
+.tourBlockPanelItem {
+  max-width: 330px !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.tourTime {
+  font: 600 22px/1.2 Arial, sans-serif;
+  width: 60px;
+  color: #FC2C38;
+}
+
+.tourCaption {
+  display: inline-block;
+  vertical-align: top;
+  font: 600 18px/1.2 Arial, sans-serif;
+  max-width: 235px;
+  margin-left: 13px;
+}
+
+.tourTextSmall {
+  margin-left: 73px;
+  margin-top: 20px;
+  max-width: 235px;
+  font-size: 18px;
+}
+
+.tourBreak {
+  height: 368px;
+  width: 1px;
+  background: #000000;
+  margin: 0 15px;
+}
+
+.tourBlockPanel {
+  display: block;
+  margin-top: 50px;
+}
+
+@media only screen and (max-device-width: 1440px) {
+  .tourCaption, .tourTextSmall {
+    max-width: 200px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .tourTime {
+    display: block;
+  }
+
+  .tourCaption {
+    margin: 10px 0 0;
+  }
+
+  .tourTextSmall {
+    margin: 25px 0 0;
+  }
+
+  .tourBlockImg {
+    right: 50px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .tourTextSmall {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #BDBDBD;
+    border-top: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+
+  .tourCaption {
+    margin: 5px 0 0;
+  }
+
+  .tourActionMobile {
+    padding: 20px;
+    border: 1px solid #BDBDBD;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+
+  .tourCaption, .tourTextSmall {
+    max-width: 230px;
+    width: 230px;
+  }
+
+  .tourBreak {
+    display: none;
+  }
+
+  .tourBlockPanel {
+    display: flex;
+  }
+
+  .tourAction {
+    margin: 0 0 65px;
+  }
+
+  .tourCaptionSmall {
+    margin-left: 20px;
+  }
+
+  .tourBlockPanelItem {
+    padding: 0 20px 0 0 !important;
+  }
+
+  .tourBlockPanelItem:nth-child(1) {
+    padding: 0 20px 0 !important;
+  }
+
+  .tourBlockImg {
+    display: none;
+  }
+}

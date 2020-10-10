@@ -1,0 +1,69 @@
+.movieWatchMailImg {
+  width: 258px;
+  height: auto;
+}
+
+.movieIllustrationPaper2 {
+  width: 102px;
+  height: auto;
+  position: absolute;
+  right: 360px;
+  top: 125px;
+}
+
+.movieIllustrationRouter {
+  width: 129px;
+  height: auto;
+  position: absolute;
+  right: 99px;
+  top: 394px;
+}
+
+.movieIllustration {
+  position: relative;
+  z-index: -1;
+  margin-top: 450px;
+}
+
+.movieIllustrationMonitor {
+  width: auto;
+  height: 150px;
+  position: absolute;
+  left: 710px;
+  top: -150px;
+}
+
+.movieIllustrationMouse {
+  width: auto;
+  height: 60px;
+  position: absolute;
+  left: 100px;
+  top: -60px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .movieIllustrationPaper2 {
+    right: 100px;
+  }
+
+  .movieIllustrationMonitor {
+    left: 500px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .movieTextMobile, .movieIllustration {
+    display: none;
+  }
+  .movieBlockMobile{
+    margin: 0 0 50px;
+    position: relative;
+  }
+  .movieIllustrationSanitazer {
+    width: 47px;
+    height: auto;
+    position: absolute;
+    right: 40px;
+    top: 70px;
+  }
+}

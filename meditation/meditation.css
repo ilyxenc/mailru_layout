@@ -1,0 +1,134 @@
+.meditationBlockPanelTop {
+  min-height: 270px;
+}
+
+.meditationTextSmall {
+  font-size: 15px;
+}
+
+.meditationBlockName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.meditationTextName {
+  position: relative;
+  padding: 0;
+}
+
+.meditationTextSmallName {
+  margin-top: 10px;
+  display: block;
+}
+
+.meditationBlockBottom {
+  position: relative;
+  margin-top: 189px;
+}
+
+.meditationBlockBottomImg {
+  width: auto;
+  height: 102px;
+  position: absolute;
+  left: 299px;
+  top: -140px;
+}
+
+.meditationBlockPanelBottom {
+  min-height: 180px;
+}
+
+.meditationModeratorImg {
+  display: none;
+}
+
+.meditationIllustration {
+  width: auto;
+  height: 152px;
+  position: absolute;
+  right: 170px;
+  top: 74px;
+}
+
+.meditationBlockMain {
+  position: relative;
+}
+
+@media only screen and (max-device-width: 1290px) {
+  .meditationBlockPanelTop, .meditationBlockPanelBottom {
+    width: auto;
+    max-width: auto;
+  }
+
+  .meditationIllustration {
+    right: 70px;
+  }
+
+  .meditationblockPanelItem {
+    padding: 0 !important;
+    padding-right: 10px !important;
+  }
+}
+
+.meditationblockActionMobile {
+  margin-top: 20px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .meditationBlockPanel {
+    display: block;
+  }
+
+  .meditationblockPanelItem {
+    padding: 0 20px 0 0 !important;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .meditationModeratorImg {
+    display: block;
+    width: 109px;
+    height: auto;
+    position: absolute;
+    left: 180px;
+    top: -11px;
+    margin: 0;
+    transform: rotateY(180deg);
+  }
+
+  .meditationblockActionMobile {
+    margin: 0 0 50px;
+  }
+
+  .meditationBlockPanel {
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .meditationBlockBottom {
+    display: none;
+  }
+
+  .meditationblockPanelItem {
+    min-width: 250px !important;
+  }
+
+  .meditationblockPanelItem:nth-child(1) {
+    padding: 0 20px 0 20px !important;
+    min-width: 250px !important;
+  }
+
+  .meditationTextDescription {
+    max-width: 260px;
+  }
+
+  .meditationIllustration {
+    right: 0px;
+    top: 130px;
+  }
+
+  .meditationBlockBottomImg {
+    display: none;
+  }
+}

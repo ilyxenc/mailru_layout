@@ -1,0 +1,107 @@
+.kulinarniyBlockPanelTop {
+  height: 270px;
+}
+
+.kulinarniyTextSmall {
+  font-size: 15px;
+}
+
+.kulinarniyBlockName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.kulinarniyTextName {
+  position: relative;
+  padding: 0;
+}
+
+.kulinarniyTextSmallName {
+  margin-top: 10px;
+  display: block;
+}
+
+.kulinarniyBlockBottom {
+  position: relative;
+  margin-top: 189px;
+}
+
+.kulinarniyBlockBottomImg {
+  width: auto;
+  height: 133px;
+  position: absolute;
+  left: 299px;
+  top: -140px;
+}
+
+.kulinarniyBlockPanelBottom {
+  min-height: 100px;
+}
+
+.kulinarniyModeratorImg, .kulinarniyblockActionMobileVisible {
+  display: none;
+}
+
+@media only screen and (max-device-width: 1290px) {
+  .kulinarniyBlockPanelTop, .kulinarniyBlockPanelBottom {
+    width: auto;
+    max-width: auto;
+  }
+
+  .kulinarniyblockPanelItem {
+    padding: 0 !important;
+    padding-right: 10px !important;
+  }
+}
+
+.kulinarniyblockActionMobile {
+  margin-top: 20px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .kulinarniyBlockPanel {
+    display: block;
+  }
+  .kulinarniyblockPanelItem {
+    padding: 0 20px 0 0 !important;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .kulinarniyModeratorImg {
+    display: block;
+    width: 109px;
+    height: auto;
+    position: absolute;
+    left: 180px;
+    top: -11px;
+    margin: 0;
+    transform: rotateY(180deg);
+  }
+
+  .kulinarniyblockActionMobile {
+    display: none;
+  }
+
+  .kulinarniyblockActionMobileVisible {
+    margin: 60px 0;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .kulinarniyblockActionMobileVisible img {
+    width: 245px;
+    height: auto;
+    display: block;
+    padding: 0 15px 0 0;
+  }
+
+  .kulinarniyblockActionMobileVisible img:nth-child(1) {
+    padding: 0 15px 0 20px;
+  }
+
+  .kulinarniyBlockBottom {
+    display: none;
+  }
+}

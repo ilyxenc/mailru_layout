@@ -1,0 +1,100 @@
+.avatarquestIllustration {
+  width: 236px;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: -169px;
+}
+
+.avatarquestUl {
+  margin-top: 20px;
+  list-style: none
+}
+
+.avatarquestLi {
+  /* padding-left: 20px; */
+}
+
+.avatarquestLiSpan {
+  color: #FC2C38;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.avatarquestLiSpan2 {
+  width: calc(100% - 45px);
+}
+
+/* .avatarquestLi::before {
+  content: "\2022";
+  color: #FC2C38;
+  font-weight: bold;
+  display: inline-block;
+  width: 1.8em;
+  margin-left: -1.8em;
+} */
+.avatarquestBlockActionMobile {
+  padding: 0;
+  box-shadow: unset;
+}
+
+.avatarquestLiSpan3 {
+  display: none;
+}
+.avatarquestIllustrationMobile {
+  position: relative;
+  z-index: -1;
+
+  display: none;
+  margin-top: 106px;
+}
+
+.avatarquestIllustrationMobileImg {
+  width: auto;
+  height: 43px;
+  position: absolute;
+  left: 48px;
+  top: -43px;
+}
+
+@media only screen and (max-device-width: 768px) {
+  .avatarquestIllustrationMobile {
+    display: block;
+  }
+  .avatarquestUl {
+    margin-bottom: 80px;
+  }
+
+  .avatarquestLi {
+    border-top: 1px solid #EDEDED;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .avatarquestLi:nth-last-child(1) {
+    border-bottom: 1px solid #EDEDED;
+  }
+
+  .avatarquestLiSpan {
+    display: none;
+  }
+
+  .avatarquestLiSpan2 {
+    width: calc(100% - 36px);
+  }
+
+  .avatarquestLiSpan3 {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 700;
+  }
+
+  .avatarquestBlockMobile {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .avatarquestBlockActionMobile {
+    display: none;
+  }
+}
