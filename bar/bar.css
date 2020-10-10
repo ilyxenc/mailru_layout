@@ -1,0 +1,84 @@
+.barIllustrationMobile {
+  position: relative;
+  z-index: -1;
+  display: none;
+}
+
+.barIllustrationMobileImg {
+  width: 142px;
+  height: auto;
+  position: absolute;
+  left: 43px;
+  top: -112px;
+}
+
+.badBlockMain {
+  position: relative;
+}
+
+.barIllustration1 {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+
+.barIllustration {
+  position: relative;
+  z-index: -1;
+  margin-top: 180px;
+}
+
+.barIllustrationMouse {
+  width: auto;
+  height: 60px;
+  position: absolute;
+  left: 100px;
+  top: -60px;
+}
+
+.barIllustrationMonitor {
+  width: auto;
+  height: 150px;
+  position: absolute;
+  left: 710px;
+  top: -150px;
+}
+
+.barIllustrationSanitazer {
+  display: none;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .barIllustrationMonitor {
+    left: 500px;
+  }
+
+  .barIllustration {
+    position: relative;
+    z-index: -1;
+    margin-top: 450px;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .barIllustrationMobile {
+    display: block;
+  }
+
+  .barIllustration1, .barIllustrationMouse, .barIllustrationMonitor {
+    display: none;
+  }
+  .barIllustration {
+    margin-top: 80px;
+  }
+  .barIllustrationSanitazer{
+    display: block;
+    width: 49px;
+    height: auto;
+    position: absolute;
+    left: 180px;
+    top: -30px;
+  }
+}
