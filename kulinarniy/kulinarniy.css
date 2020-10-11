@@ -43,6 +43,78 @@
   display: none;
 }
 
+.kulinarniyHover {
+  display: none;
+  position: absolute;
+  border: 1px solid #BDBDBD;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: #FFF;
+  left: 0;
+  top: 0;
+  transition: 0.3s;
+}
+
+.kulinarniyHoverBlock {
+  padding: 20px;
+}
+
+.kulinarniyHoverBlockText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kulinarniyHoverImg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.kulinarniyHoverImg2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.kulinarniyHoverImg3 {
+  left: 20px;
+  top: 26px;
+  width: 120px;
+  height: auto;
+  position: absolute;
+}
+.kulinarniyHoverImg4{
+  left: 20px;
+  top: 26px;
+  width: 102px;
+  height: auto;
+  position: absolute;
+}
+
+.kulinarniyblockPanelItem {
+  position: relative;
+}
+
+.kulinarniyblockPanelItem:hover .kulinarniyHover {
+  display: block;
+}
+
+.kulinarniyHoverText {
+  font: 12px/1.2 Arial, sans-serif;
+  text-align: left;
+}
+
+.kulinarniyHoverCaption {
+  font: 700 12px/1.2 Arial, sans-serif;
+  text-align: left;
+  margin: 20px 0 10px;
+}
+
+.kulinarniyHoverTextRight {
+  width: 65px;
+}
+
 @media only screen and (max-device-width: 1290px) {
   .kulinarniyBlockPanelTop, .kulinarniyBlockPanelBottom {
     width: auto;
@@ -63,6 +135,7 @@
   .kulinarniyBlockPanel {
     display: block;
   }
+
   .kulinarniyblockPanelItem {
     padding: 0 20px 0 0 !important;
   }
